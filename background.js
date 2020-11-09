@@ -1,23 +1,17 @@
 "use strict";
 
-function onError(error) {
-    console.error(`Seite ist nicht https://www.moodle.tum.de\nError: ${error}`);
-}
-
-function sendMessageToTabs(tabs) {
-    for (let tab of tabs) {
-        browser.tabs.sendMessage(
-            tab.id,
-            { nachricht: "ButtonClicked" }
-        ).catch(onError);
+chrome.browserAction.onClicked.addListener(() => {
+    try {
+        chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
+            chrome.tabs.sendMessage(tabs[0].id, { nachricht: "ButtonClicked" }, function (response) {
+                if (chrome.runtime.lastError) {
+                    // Something went wrong
+                    console.warn("Seite ist nicht https://www.moodle.tum.de\nError: " + chrome.runtime.lastError.message);
+                }
+            });
+        });
+    } catch (error) {
+        onError(error);
     }
-}
 
-browser.browserAction.onClicked.addListener(() => {
-    browser.tabs.query({
-        currentWindow: true,
-        active: true
-    }).then(sendMessageToTabs).catch(onError);
 });
-
-
