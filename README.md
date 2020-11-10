@@ -9,7 +9,7 @@ It works by simply removing one \<div\> from the loaded page.
 ## Install
 
 ### Firefox
-[![Get the addon](https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/addons/files/2015/11/get-the-addon.png)](https://addons.mozilla.org/firefox/downloads/file/3675576/tummoodlenativevideo-1.0-fx.xpi)
+[![Get the addon](https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/addons/files/2015/11/get-the-addon.png)](https://addons.mozilla.org/de/firefox/addon/tummoodlenativevideo/)
 
 ### Chrome and Chromium Browsers
 
