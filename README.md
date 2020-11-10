@@ -2,7 +2,7 @@
 
 ## Description
 
-Simple WebExtension to replace the videoplayer used by https://www.moodle.tum.de with the built-in HTML5 Video Player
+Simple WebExtension to replace the videoplayer used by https://www.moodle.tum.de with the built-in HTML5 Video Player.
 
 It works by simply removing one \<div\> from the loaded page.
 
@@ -13,7 +13,7 @@ It works by simply removing one \<div\> from the loaded page.
 
 ### Chrome and Chromium Browsers
 
-Download the zip from the [Release Page](https://github.com/twinoflink/TUMMoodleNativeVideo/releases/tag/1.0) and install the extension in Developer Mode
+Download the zip from the [Release Page](https://github.com/twinoflink/TUMMoodleNativeVideo/releases/tag/1.0) and install the extension in Developer Mode.
 
 ## Usage
 
