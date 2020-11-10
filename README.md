@@ -18,3 +18,8 @@ Download the zip from the [Release Page](https://github.com/twinoflink/TUMMoodle
 ## Usage
 
 To use it, simply navigate to https://www.moodle.tum.de and press the button after the page loaded.
+
+##Disclaimer
+
+This Addon is in no way associated or affiliated with TUM or Moodle.
+Its whole purpose is to make it easier to watch videos and recordings on the platform.
